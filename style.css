@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+}   
+
+.head{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    color:white;
+
+}
+
+.space{
+    padding-bottom: 50px;
+    
+}
+
+.main{
+    /* background-color: wheat; */
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px; 
+} 
+
+.background{
+    /* background-color: black; */
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+
+.container{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px; */
+    /* padding-top: 20px; */
+    /* padding: 0px 65px 50px 65px; */
+    
+    
+} 
+.infocontainer{
+    /*background-color: rgb(123, 255, 0);*/
+    /* height: 58vh; */
+    /* width: 80vw; */
+    /* margin : 144px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 100px; */
+    /* background-color: wheat; */
+    /* width: 700px;
+    height: 300px; */
+    /* padding: ; */
+    width: 70vw;
+    height: 20vh;    
+}
+
+.diff{
+    padding-left: 45vw;
+    padding-right: 45vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.shadow{
+    background-color: white;
+    /* border-radius: 5px; */
+
+    
+    
+}
+.devInfo{
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    padding-right: 450px;
+    
+}
+
+.name{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+}
+
+.devPic img{
+    height: 5vh;
+    width: 10vw;
+    padding: 20px;
+}
+.info{
+    height: 58vh;
+    width: 80vw;
+    margin : 144px auto;
+    
+
+}
+.work{
+  font-size: 30px;
+}
+.about_me{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    font-size: 40px;
+    padding: 10vh 5vw 10vh 5vw;
+    
+    font-family: 'Nunito', sans-serif;  
+    border-radius: 5px;
+    width: 70vw;
+    height: 20vh;
+
+    /* width: 61vw; */
+}
+
+.about-spec{
+    display: flex;
+    /* justify-content: center; */
+    font-size: 20px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.about-spec p{
+    /* padding-right: 150px; */
+}
+
+.skill{
+    background-color: white;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;  
+
+    padding: 10vh 5vw 10vh 5vw;
+    border-radius: 5px;
+    width: 70vw;
+    height: 20vh;
+}
+.skill-spec{
+    font-size: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+.skill-spec p{
+    padding-right: 150px;
+}
+
